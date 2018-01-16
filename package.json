@@ -1,6 +1,6 @@
 {
   "name": "@eropple/promise-disk-cache",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A disk-based asynchronous cache that supports string or binary encoding.",
   "main": "dist",
   "repository": "https://github.com/eropple/promise-disk-cache",

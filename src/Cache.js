@@ -77,6 +77,10 @@ export default class Cache {
       return value;
     }
   }
+
+  async invalidate(key) {
+    return fsx.remove(this.cachePath(key));
+  }
 }
 
 Cache.build = async (userOptions = {}) => {
