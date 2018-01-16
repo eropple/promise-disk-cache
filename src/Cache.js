@@ -1,4 +1,5 @@
 import * as _ from 'lodash';
+import Joi from 'joi';
 import fsx from 'fs-extra';
 import path from 'path';
 import tmpdir from 'os-tmpdir';
