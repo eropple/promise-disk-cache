@@ -20,8 +20,10 @@ export default class Cache {
   }
 
   get options() { return this._options; }
+  get initialized() { return this._initialized; }
 
   async initialize() {
+    this._initialized = true;
     await fsx.ensureDir(this._cacheLocation);
   }
 
